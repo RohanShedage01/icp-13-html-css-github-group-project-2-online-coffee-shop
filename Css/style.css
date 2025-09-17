@@ -10,3 +10,9 @@ body{
     border-radius: 50%;
     padding: 5px 10px;
 }
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: #3E0703;
+}
