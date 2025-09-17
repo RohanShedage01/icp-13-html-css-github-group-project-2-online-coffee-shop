@@ -110,3 +110,8 @@ body {
   color: #3c0d13;
   transform: scale(1.05);
 }
+
+.hero-image img {
+  width:450px;
+  max-width:100%;
+}
