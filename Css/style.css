@@ -233,3 +233,49 @@ hr {
   font-size: 14px;
   color: #f5e6d3;
 }
+
+@media (max-width: 992px) {
+  .nav-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .brand-logo {
+    margin-bottom: 10px;
+  }
+
+  .brand-name {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .nav-items {
+    margin: 8px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-image img {
+    width: 280px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-container > div {
+    margin-bottom: 20px;
+  }
+}
