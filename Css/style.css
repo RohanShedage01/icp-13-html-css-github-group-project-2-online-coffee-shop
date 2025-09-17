@@ -148,3 +148,12 @@ body {
   flex-wrap: wrap;
 }
 
+.card {
+  background: #3c0d13;
+  border-radius: 16px;
+  padding: 30px 20px;
+  width: 280px;
+  text-align: center;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
