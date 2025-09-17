@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: #8C1007;
+    background-color: #3E0703;
 }
 
 .brand-logo{
@@ -14,7 +14,7 @@ body{
 .nav-bar{
     display: flex;
     align-items: center;
-    background-color: #3E0703;
+    background-color: #3e1f1a;
 }
 
 .brand-name{
@@ -39,7 +39,7 @@ body{
 }
 
 body {
-  background: #3c0d13;
+  background:  #2a080d;
   color: white;
 }
 
