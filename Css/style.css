@@ -179,3 +179,10 @@ body {
   transform: translateY(-8px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
+
+.footer {
+  background-color: #3e1f1a; 
+  color: #f5e6d3;
+  padding: 40px 20px;
+  text-align: left;
+}
