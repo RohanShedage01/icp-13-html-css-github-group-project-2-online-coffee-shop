@@ -16,3 +16,10 @@ body{
     align-items: center;
     background-color: #3E0703;
 }
+
+.brand-name{
+    font-size: 25px;
+    margin: 10px;
+    margin-right: 350px;
+    color: white;
+}
