@@ -209,3 +209,27 @@ body {
 .footer a:hover {
   color: #ffcc80; 
 }
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer-contact strong {
+  color: #ffcc80;
+}
+
+hr {
+  border: 0.5px solid #f5e6d3;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #f5e6d3;
+}
