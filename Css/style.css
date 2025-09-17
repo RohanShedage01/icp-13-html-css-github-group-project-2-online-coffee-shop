@@ -54,3 +54,10 @@ body {
 .hero-content {
   max-width: 50%;
 }
+
+.hero-content .tagline {
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+  font-weight: normal;
+  color: #ff9d2b;
+}
