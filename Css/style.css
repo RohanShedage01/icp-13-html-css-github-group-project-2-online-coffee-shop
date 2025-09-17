@@ -134,3 +134,9 @@ body {
   padding: 60px 10%;
   background: #2a080d;
 }
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #ff9d2b;
+}
