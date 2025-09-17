@@ -42,3 +42,12 @@ body {
   background: #3c0d13;
   color: white;
 }
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  40px 10% 60px;
+  min-height: calc(100vh - 80px);
+}
+
