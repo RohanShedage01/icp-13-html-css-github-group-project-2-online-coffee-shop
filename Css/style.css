@@ -140,3 +140,11 @@ body {
   margin-bottom: 40px;
   color: #ff9d2b;
 }
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
