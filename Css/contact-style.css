@@ -36,11 +36,12 @@ section.contact {
 }
 .contact-container {
  border:none;
+  background-color:#B87C4C;
  margin: 1px;
  width: 800px;
  height: 400px;
  padding: 10px 10px;
- box-shadow: 2px 2px 2px 2px gray;
+ box-shadow: 2px 2px 2px 2px #B87C4C;
  border-radius: 7px;
  display:flex;
 flex-direction: column;
@@ -73,11 +74,12 @@ margin-left: 100px;
 }
 .container{
   border:none;
+background-color: #B87C4C;
  margin: 1px;
  width: 800px;
  height: 150px;
  padding: 10px 10px;
- box-shadow: 2px 2px 2px 2px gray;
+ box-shadow: 2px 2px 2px 2px  #B87C4C;
  border-radius: 7px;
  display:flex;
 flex-direction: column;
@@ -90,7 +92,7 @@ margin-left: 100px;
  width: 800px;
  height: 300px;
  padding: 10px 10px;
- box-shadow: 2px 2px 2px 2px gray;
+ box-shadow: 2px 2px 2px 2px #B87C4C;
  border-radius: 7px;
  display:flex;
 flex-direction: column;
