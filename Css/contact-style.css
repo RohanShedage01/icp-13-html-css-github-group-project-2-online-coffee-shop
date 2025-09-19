@@ -1,3 +1,8 @@
+body{
+  background-color: #efe7d3;
+}
+
+
 .nav-bar{
     display: flex;
     align-items: center;
