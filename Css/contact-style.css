@@ -79,3 +79,17 @@ flex-direction: column;
 margin-top: 80px;
 margin-left: 100px;
 }
+.container-map{
+  border:none;
+ margin: 1px;
+ width: 800px;
+ height: 300px;
+ padding: 10px 10px;
+ box-shadow: 2px 2px 2px 2px gray;
+ border-radius: 7px;
+ display:flex;
+flex-direction: column;
+margin-top: 80px;
+margin-left: 100px;
+
+}
