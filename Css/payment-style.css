@@ -31,15 +31,43 @@ body{
     margin-left: 50px;
 }
 .payment-container {
+   margin-top: 150px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
   background-color: #fed8b9;
   padding: 30px 40px;
-  border-radius: 5px;
+  border-radius: 50px;
   box-shadow: 0 5px 25px #382005;
   width: 450px;
   text-align: center;
 }
 .payment-container h1 {
-  margin-bottom: 20px;
-  color: #3f2c17;
+  margin-bottom: 40px;
+  color: #544945;
   text-align: center;
 }
+.groupinputs {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.groupinputs label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #333;
+}
+.groupinputs input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 50px;
+  font-size: 14px;
+  outline: none;
+}
+.details-card {
+  display: block;
+  gap: 25px;
+}
+
