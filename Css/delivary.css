@@ -1,137 +1,138 @@
-body{
-    padding: 0px;
-    margin: 0px;
-    background-color: #3E0703;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column; /* so navbar stays on top */
+  min-height: 100vh;
+  background-color: rgb(187, 20, 75);
+  position: relative;
 }
 
-.brand-logo{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    padding: 5px 10px;
-}
-.nav-bar{
-    display: flex;
-    align-items: center;
-    background-color: #3e1f1a;
+/* Overlay effect */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(211, 127, 127, 0.55);
+  z-index: 0;
 }
 
-.brand-name{
-    font-size: 25px;
-    margin: 10px;
-    margin-right: 350px;
-    color: white;
+/* Navbar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3e1f1a;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 2; /* stay above overlay */
 }
 
-.nav-items{
-    margin-left: 10px;
-    margin-right: 100px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    margin-left: 50px;
+.brand-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.brand-name {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
 }
 
 .nav-items:hover {
   color: #ffcc00;
-  text-shadow: 0 0 8px #ffcc00;
+  text-shadow: 0 0 8px #ffcc00;
 }
 
-body {
-      margin: 0;
-      padding: 0;
-      font-family: "Poppins", sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-     background-color:rgb(187, 20, 75);
+/* Form container */
+.form-container {
+  position: relative;
+  background: rgba(255,255,255,0.95);
+  padding: 30px;
+  border-radius: 16px;
+  width: 380px;
+  margin: 50px auto; /* centers under navbar */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+  z-index: 1;
+  animation: fadeIn 1s ease;
+}
 
-    body::before {
-      content: "";
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(211, 127, 127, 0.55);
-    }
+h2 {
+  text-align: center;
+  color: #6f4e37;
+  margin-bottom: 20px;
+}
 
-    .form-container {
-      position: relative;
-      background: rgba(255,255,255,0.95);
-      padding: 30px;
-      border-radius: 16px;
-      width: 380px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.4);
-      z-index: 1;
-      animation: fadeIn 1s ease;
-    }
+label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 6px;
+  color: #333;
+}
 
-    
-    h2 {
-      text-align: center;
-      color: #6f4e37;
-      margin-bottom: 20px;
-    }
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  font-size: 15px;
+}
 
-    label {
-      font-weight: bold;
-      display: block;
-      margin: 10px 0 6px;
-      color: #333;
-    }
+.payment-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+  justify-content: space-between;
+}
 
-     input, select {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      margin-bottom: 14px;
-      font-size: 15px;
-    }
-    .payment-options {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 18px;
-      justify-content: space-between;
-    }
+.payment-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+  color: #fff;
+}
 
-    .payment-btn {
-      flex: 1;
-      padding: 12px;
-      border: none;
-      border-radius: 10px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: transform 0.2s, background 0.3s;
-      color: #fff;
-    }
+.cod {
+  background: #6f4e37;
+}
 
-    .cod {
-      background: #822b3c;
-    }
+.online {
+  background: #ce6a84;
+}
 
-    .online {
-      background: #822b3c;
-    }
+.payment-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
 
-    .payment-btn:hover {
-      transform: scale(1.05);
-      opacity: 0.9;
-    }
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ce6a84;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
 
-    .submit-btn {
-      width: 100%;
-      padding: 12px;
-      background: #ce6a84;
-      border: none;
-      border-radius: 10px;
-      color: white;
-      font-size: 17px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background 0.3s, transform 0.2s;
-    }
-
-    .submit-btn:hover {
-      background: #a77070;
-      transform: scale(1.05);
-    }
+.submit-btn:hover {
+  background: #a34b63;
+  transform: scale(1.03);
+}
