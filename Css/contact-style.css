@@ -1,5 +1,7 @@
 body{
   background-color: #efe7d3;
+   padding: 0px;
+    margin: 0px;
 }
 
 
@@ -7,6 +9,7 @@ body{
     display: flex;
     align-items: center;
     background-color: #3e1f1a;
+  
 }
 .brand-logo{
     height: 100px;
@@ -75,7 +78,7 @@ margin-left: 100px;
   width: 150px;
 }
 .btn:hover{
-  color:#D9A299;
+   background-color: #5a0b05;
 }
 .message{
   border-radius: 5px;
