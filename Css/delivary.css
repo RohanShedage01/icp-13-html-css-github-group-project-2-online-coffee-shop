@@ -10,6 +10,32 @@ body{
     border-radius: 50%;
     padding: 5px 10px;
 }
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: #3e1f1a;
+}
+
+.brand-name{
+    font-size: 25px;
+    margin: 10px;
+    margin-right: 350px;
+    color: white;
+}
+
+.nav-items{
+    margin-left: 10px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.nav-items:hover {
+  color: #ffcc00;
+  text-shadow: 0 0 8px #ffcc00;
+}
 
 body {
       margin: 0;
@@ -19,8 +45,7 @@ body {
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-     background-color:rgb(187, 20, 75) ;
-    }
+     background-color:rgb(187, 20, 75);
 
     body::before {
       content: "";
@@ -81,11 +106,11 @@ body {
     }
 
     .cod {
-      background: #f1c0ca;
+      background: #822b3c;
     }
 
     .online {
-      background: #d5abb0;
+      background: #822b3c;
     }
 
     .payment-btn:hover {
