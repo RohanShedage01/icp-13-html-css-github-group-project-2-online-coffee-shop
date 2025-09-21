@@ -44,7 +44,7 @@ body{
 }
 .payment-container h1 {
   margin-bottom: 40px;
-  color: #544945;
+  color: #301208;
   text-align: center;
 }
 .groupinputs {
@@ -70,4 +70,21 @@ body{
   display: block;
   gap: 25px;
 }
-
+.payment-btn {
+ background: #301208;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  color: oldlace;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.payment-btn:hover {
+  background: #301208;
+  transform: scale(1.05);
+}
