@@ -1,0 +1,156 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #efe7d3;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #efe7d3;
+  z-index: 0;
+}
+
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3e1f1a;  /* Fixed error */
+  padding: 10px 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.brand-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.brand-name {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.nav-items:hover {
+  color: #ffcc00;
+  text-shadow: 0 0 8px #ffcc00;
+}
+
+
+section.contact {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-container {
+  width: 800px;
+  height: 400px;
+  margin: 80px auto;
+  padding: 10px;
+  border: none;
+  background-color: #B87C4C;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container {
+  position: relative;
+  width: 380px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+  z-index: 1;
+  animation: fadeIn 1s ease;
+}
+
+h2 {
+  text-align: center;
+  color: #6f4e37;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+.payment-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.payment-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  background: #3e1f1a;   
+  transition: transform 0.2s, background 0.3s, opacity 0.3s;
+}
+
+.payment-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  background: #e95e48;   
+  transition: background 0.3s, transform 0.2s;
+}
+
+.submit-btn:hover {
+  background: #2b140f;
+  transform: scale(1.03);
+}

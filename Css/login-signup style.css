@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+  .brand-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: #3e1f1a;
+}
+
+.brand-name{
+    font-size: 25px;
+    margin: 10px;
+    margin-right: 350px;
+    color: white;
+}
+
+.nav-items{
+    margin-left: 10px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.container {
+            
+            display: flex;
+            flex-direction: row;
+            height: 450px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+.card {
+            width: 200px;
+            background-color:#b87c4c;
+            border: none;
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+            align-items: center;
+            border-radius: 15px;
+        }
+    
+    
+h2{
+    
+    text-align: center;
+    font-size: 25px;
+}
+    .input-box{
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        
+        
+    }
+    .box{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 230px;
+    } 
+
+        .btn{
+            border-radius: 50px;
+            margin-left: 95px;
+            padding: 8px;
+            width: 150px;
+            margin-top: 30px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color:#3e1f1a;
+            color: white;
+            border: none;
+            
+            
+            
+        }
+        .text{
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        .heading{
+            text-align: center;
+        }
+        .icon{
+            position: relative;
+            right: 35px;
+            top: 17px;
+        }
+        .btn:hover{
+            color: #D9a299;
+        }
+    
+
+
+.footer {
+  background-color: #3e1f1a; 
+  color: #f5e6d3;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer h2, .footer h4 {
+  margin-bottom: 15px;
+  color: #ffe0b2; 
+}
+
+.footer p, .footer a {
+  margin: 5px 0;
+  color: #f5e6d3;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ffcc80; 
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer-contact strong {
+  color: #ffcc80;
+}
+
+hr {
+  border: 0.5px solid #f5e6d3;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #f5e6d3;
+}
+/* Tablets */
+@media (max-width: 992px) {
+  .brand-logo {
+    height: 70px;
+    width: 70px;
+  }
+
+  .brand-name {
+    font-size: 20px;
+    margin-right: 100px;
+  }
+
+  .nav-items {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+
+  .contact-container, 
+  .container, 
+  .container-map {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Mobile Devices */
+@media (max-width: 600px) {
+  .nav-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .brand-logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  .brand-name {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  .nav-items {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .contact-container, 
+  .container, 
+  .container-map {
+    width: 100%;
+    margin: 20px auto;
+    height: auto;
+  }
+
+  .contact-form {
+    font-size: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer h2, .footer h4 {
+    font-size: 18px;
+  }
+
+  .footer p, .footer a {
+    font-size: 14px;
+  }
+}
