@@ -8,3 +8,9 @@ body {
       min-height: 100vh;
      background-color:rgb(187, 20, 75) ;
     }
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(211, 127, 127, 0.55);
+    }
