@@ -25,3 +25,10 @@ body {
       z-index: 1;
       animation: fadeIn 1s ease;
     }
+
+    
+    h2 {
+      text-align: center;
+      color: #6f4e37;
+      margin-bottom: 20px;
+    }
