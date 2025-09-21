@@ -48,10 +48,10 @@ body{
       font-size: 40px;
       color: #fff;
       background-color: #200705;
-      padding: 10px;
-      border-radius: 10px;
+      padding: 20px;
+      border-radius: 50px;
       margin-bottom: 20px;
-      display: inline-flex;
+      
     }
     .menu-title {
       font-size: 28px;
