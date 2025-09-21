@@ -48,3 +48,9 @@ body {
       margin-bottom: 14px;
       font-size: 15px;
     }
+    .payment-options {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+      justify-content: space-between;
+    }
