@@ -1,0 +1,222 @@
+body{
+    padding: 0;
+    margin: 0;
+  background-color: #efe7d3;
+}
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: #3e1f1a;
+}
+.brand-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+.brand-name{
+    font-size: 25px;
+    margin: 10px;
+    margin-right: 350px;
+    color: white;
+}
+.nav-items{
+    margin-left: 10px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.payment-container {
+   margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  background-color:rgb(255, 250, 240);
+  padding: 30px 40px;
+  border-radius: 30px;
+  box-shadow: 0 5px 25px #382005;
+  width: 450px;
+  text-align: center;
+}
+.payment-container h1 {
+  margin-bottom: 40px;
+  color: #301208;
+  text-align: center;
+}
+.groupinputs {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.groupinputs label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #333;
+}
+.groupinputs input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 50px;
+  font-size: 14px;
+  outline: none;
+}
+.details-card {
+  display: block;
+  gap: 25px;
+}
+.payment-btn {
+ background: #301208;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  color: oldlace;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.payment-btn:hover {
+  background: #301208;
+  transform: scale(1.05);
+}
+
+.backtodel a {
+  text-decoration: none;
+  color: #301208;
+  font-weight: bold;
+}
+.footer {
+  background-color: #3e1f1a; 
+  color: #f5e6d3;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer h2, .footer h4 {
+  margin-bottom: 15px;
+  color: #ffe0b2; 
+}
+
+.footer p, .footer a {
+  margin: 5px 0;
+  color: #f5e6d3;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ffcc80; 
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer-contact strong {
+  color: #ffcc80;
+}
+
+hr {
+  border: 0.5px solid #f5e6d3;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #f5e6d3;
+}
+/* Tablets */
+@media (max-width: 992px) {
+  .brand-logo {
+    height: 70px;
+    width: 70px;
+  }
+
+  .brand-name {
+    font-size: 20px;
+    margin-right: 100px;
+  }
+
+  .nav-items {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+
+  .payment-container, .details-card, .groupinputs {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Mobile Devices */
+@media (max-width: 600px) {
+  .nav-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .brand-logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  .brand-name {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  .nav-items {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .payment-container, .details-card, .groupinputs{
+    width: 100%;
+    margin: 20px auto;
+    height: auto;
+  }
+
+  .payment-form {
+    font-size: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer h2, .footer h4 {
+    font-size: 18px;
+  }
+
+  .footer p, .footer a {
+    font-size: 14px;
+  }
+}
