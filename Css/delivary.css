@@ -32,3 +32,10 @@ body {
       color: #6f4e37;
       margin-bottom: 20px;
     }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin: 10px 0 6px;
+      color: #333;
+    }
