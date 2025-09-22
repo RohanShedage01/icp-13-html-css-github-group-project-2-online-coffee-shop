@@ -1,7 +1,7 @@
 body{
+    padding: 0;
+    margin: 0;
   background-color: #efe7d3;
-   padding: 0px;
-    margin: 0px;
 }
 
 
@@ -9,7 +9,6 @@ body{
     display: flex;
     align-items: center;
     background-color: #3e1f1a;
-  
 }
 .brand-logo{
     height: 100px;
@@ -31,87 +30,70 @@ body{
     font-size: 20px;
     margin-left: 50px;
 }
-section.contact {
-  max-width: 1000px;
-  margin: auto;
-  padding: 40px 20px;
+.payment-container {
+   margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  background-color:rgb(255, 250, 240);
+  padding: 30px 40px;
+  border-radius: 30px;
+  box-shadow: 0 5px 25px #382005;
+  width: 450px;
   text-align: center;
 }
-.contact-container {
- border:none;
-  background-color:#B87C4C;
- margin: 1px;
- width: 800px;
- height: 400px;
- padding: 10px 10px;
- box-shadow: 2px 2px 2px 2px ;
- border-radius: 7px;
- display:flex;
-flex-direction: column;
-justify-content: center;
-margin-top: 80px;
-margin-left: 100px;
- }
-.contact-form {
-  font-size: 25px;
-  padding: 20px;
-  border-radius: 12px;
-  text-align: left;
-  justify-content: center;
- text-align: center;
-
+.payment-container h1 {
+  margin-bottom: 40px;
+  color: #301208;
+  text-align: center;
 }
-
-.label{
-  font-size: 20px;
-  font-weight:10px;
-  border-radius: 5px;
+.groupinputs {
+  margin-bottom: 25px;
+  text-align: center;
 }
-
-.btn{
-   font-size: 20px;
+.groupinputs label {
+  display: block;
+  margin-bottom: 15px;
   font-weight: bold;
-  border-radius: 20px 20px 20px 20px ;
-  background-color:  #3e1f1a;
-  color: white;
-  height: max-content;
-  width: 150px;
+  font-size: 17px;
+  color: #333;
 }
-.btn:hover{
-   background-color: #5a0b05;
+.groupinputs input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 50px;
+  font-size: 14px;
+  outline: none;
 }
-.message{
-  border-radius: 5px;
+.details-card {
+  display: block;
+  gap: 25px;
 }
-.container{
-  border:none;
-background-color: #B87C4C;
- margin: 1px;
- width: 800px;
- height: 150px;
- padding: 10px 10px;
- box-shadow: 2px 2px 2px 2px;
- border-radius: 7px;
- display:flex;
-flex-direction: column;
-margin-top: 80px;
-margin-left: 100px;
+.payment-btn {
+ background: #301208;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  color: oldlace;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  text-decoration: none;
 }
-.container-map{
-  border:solid  #B87C4C;
- margin: 1px;
- width: 800px;
- height: 300px;
- padding: 10px 10px;
- box-shadow: 2px 2px 2px 2px;
- border-radius: 7px;
- display:flex;
-flex-direction: column;
-margin-top: 80px;
-margin-left: 100px;
+.payment-btn:hover {
+  background: #301208;
+  transform: scale(1.05);
+}
 
+.backtodel a {
+  text-decoration: none;
+  color: #301208;
+  font-weight: bold;
 }
- 
 .footer {
   background-color: #3e1f1a; 
   color: #f5e6d3;
@@ -182,9 +164,7 @@ hr {
     font-size: 18px;
   }
 
-  .contact-container, 
-  .container, 
-  .container-map {
+  .payment-container, .details-card, .groupinputs {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -212,15 +192,13 @@ hr {
     font-size: 16px;
   }
 
-  .contact-container, 
-  .container, 
-  .container-map {
+  .payment-container, .details-card, .groupinputs{
     width: 100%;
     margin: 20px auto;
     height: auto;
   }
 
-  .contact-form {
+  .payment-form {
     font-size: 20px;
   }
 
