@@ -5,11 +5,50 @@ body {
 }
 
 .nav-bar {
+  width: 100%;
+  background: rgba(62, 31, 26, 0.95);
+  padding: 12px 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   align-items: center;
-  background: rgba(62, 31, 26, 0.95);
-  padding: 10px 30px;
+  justify-content: space-between;
+  padding: 0 20px;
 }
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-right a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-right a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ffca28;
+  transition: width 0.3s ease;
+}
+
+.nav-right a:hover::after {
+  width: 100%;
+}
+
 
 .brand-logo {
   height: 60px;
