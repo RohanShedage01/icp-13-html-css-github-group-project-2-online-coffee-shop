@@ -39,7 +39,7 @@ body{
 }
 
 .hamburger {
-  display: none;   /* <- this hides it on desktop */
+  display: none; 
   cursor: pointer;
 }
 .hamburger img {
