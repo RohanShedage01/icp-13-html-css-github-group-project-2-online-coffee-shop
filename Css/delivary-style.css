@@ -1,3 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+  .brand-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: #3e1f1a;
+}
+
+.brand-name{
+    font-size: 25px;
+    margin: 10px;
+    margin-right: 350px;
+    color: white;
+}
+
+.nav-items{
+    margin-left: 10px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
 
 body {
    background-color: #efe7d3;
@@ -6,10 +40,51 @@ body {
 
 .nav-bar {
   display: flex;
-  align-items: center;
+    align-items: center;
+  width: 100%;
   background: rgba(62, 31, 26, 0.95);
-  padding: 10px 30px;
+  padding: 12px 0;
 }
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-right a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-right a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ffca28;
+  transition: width 0.3s ease;
+}
+
+.nav-right a:hover::after {
+  width: 100%;
+}
+
 
 .brand-logo {
   height: 60px;
@@ -68,7 +143,7 @@ form input, form select {
 }
 
 form input:focus, form select:focus {
-  border-color: #8d6e63;
+  border-color: #fdfbfb;
 }
 
 
@@ -86,7 +161,8 @@ form input:focus, form select:focus {
   display: inline-block;
   padding: 12px 18px;
   border-radius: 10px;
-  background: #d7ccc8;
+  background: #331a11 ;
+  color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
   font-weight: 600;
@@ -94,12 +170,12 @@ form input:focus, form select:focus {
 }
 
 .payment-options input[type="radio"]:checked + .payment-btn {
-  background: #795548;
-  color: #fff;
-  border: 2px solid #5d4037;
+  background: #fffefe;
+  color: white;
+  border: 2px solid #f5f2f1;
 }
 
-/* Submit Button */
+
 .submit-btn {
   width: 100%;
   padding: 12px;

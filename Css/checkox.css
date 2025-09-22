@@ -1,3 +1,24 @@
+<<<<<<< HEAD
+/* -------------------
+   1. Global Styles
+-------------------- */
+body {
+  background-color: #efe7d3;
+  color: #3e2723;
+  font-family: Arial, sans-serif; /* optional but good practice */
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------
+   2. Navbar
+-------------------- */
+.nav-bar {
+  width: 100%;
+  background: rgba(62, 31, 26, 0.95);
+  padding: 12px 0;
+}
+=======
 
 body {
   margin: 0;
@@ -60,43 +81,166 @@ body {
       margin-top: 30px;
       margin-bottom: 30px;
     }
+>>>>>>> ee680a233fa447e893b2e1659e6578606cbcc3e4
 
-    /* Circle */
-    .circle {
-      width: 80px;
-      height: 80px;
-      margin: 0 auto 20px;
-      border-radius: 50%;
-      border: 4px solid #28a745;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      animation: pop 0.4s ease-out;
-    }
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
 
-    /* Checkmark */
-    .checkmark {
-      width: 20px;
-      height: 40px;
-      border-right: 4px solid #28a745;
-      border-bottom: 4px solid #28a745;
-      transform: rotate(45deg) scale(0);
-      animation: drawCheck 0.4s ease-out forwards 0.5s;
-      position: absolute;
-    }
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
-    /* Circle pop effect */
-    @keyframes pop {
-      0% { transform: scale(0.8); }
-      100% { transform: scale(1); }
-    }
+.brand-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
 
-    /* Checkmark animation */
-    @keyframes drawCheck {
-      to { transform: rotate(45deg) scale(1); }
-    }
+.brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 30px;
+}
 
+<<<<<<< HEAD
+.nav-right a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-right a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ffca28;
+  transition: width 0.3s ease;
+}
+
+.nav-right a:hover::after {
+  width: 100%;
+}
+
+/* -------------------
+   3. Form Container
+-------------------- */
+.form-container {
+  background: rgba(255, 255, 255, 0.9);
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5d4037;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 15px;
+  transition: border 0.3s;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #8d6e63;
+}
+
+/* -------------------
+   4. Payment Options
+-------------------- */
+.payment-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.payment-options input[type="radio"] {
+  display: none;
+}
+
+.payment-btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: #d7ccc8;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.payment-options input[type="radio"]:checked + .payment-btn {
+  background: #795548;
+  color: #fff;
+  border: 2px solid #5d4037;
+}
+
+/* -------------------
+   5. Buttons
+-------------------- */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #6d4c41;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #4e342e;
+}
+
+/* -------------------
+   6. Footer
+-------------------- */
+.footer {
+  background: #3e1f1a;
+  color: #fff;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+=======
     h1 {
       color: white;
       margin-bottom: 10px;
@@ -133,10 +277,21 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+>>>>>>> ee680a233fa447e893b2e1659e6578606cbcc3e4
   max-width: 1200px;
   margin: auto;
 }
 
+<<<<<<< HEAD
+.footer h4,
+.footer h2 {
+  margin-bottom: 10px;
+  color: #ffca28;
+}
+
+.footer a {
+  color: #fff;
+=======
 .footer h2, .footer h4 {
   margin-bottom: 15px;
   color: #ffe0b2; 
@@ -145,10 +300,14 @@ body {
 .footer p, .footer a {
   margin: 5px 0;
   color: #f5e6d3;
+>>>>>>> ee680a233fa447e893b2e1659e6578606cbcc3e4
   text-decoration: none;
 }
 
 .footer a:hover {
+<<<<<<< HEAD
+  text-decoration: underline;
+=======
   color: #ffcc80; 
 }
 
@@ -168,10 +327,17 @@ body {
 hr {
   border: 0.5px solid #f5e6d3;
   margin: 20px 0;
+>>>>>>> ee680a233fa447e893b2e1659e6578606cbcc3e4
 }
 
 .footer-bottom {
   text-align: center;
+<<<<<<< HEAD
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+=======
   font-size: 14px;
   color: #f5e6d3;
 }
@@ -262,3 +428,4 @@ hr {
     font-size: 14px;
   }
 }
+>>>>>>> ee680a233fa447e893b2e1659e6578606cbcc3e4
