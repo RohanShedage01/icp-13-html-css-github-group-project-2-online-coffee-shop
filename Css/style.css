@@ -25,6 +25,7 @@ body{
 }
 
 .nav-items{
+    display: flex;
     margin-left: 10px;
     margin-right: 100px;
     text-decoration: none;
@@ -38,36 +39,25 @@ body{
   text-shadow: 0 0 8px #ffcc00;
 }
 
-.hamburger {
-  display: none; 
-  cursor: pointer;
-}
-.hamburger img {
-  width: 20px;
-  height: 20px;
-}
-
 @media (max-width: 768px) {
-  .hamburger {
+  .menu-icon {
   display: block;
   position: absolute;
-  top: 125px;
+  top: 65px;
   left: 5%;
   padding: 15px;
-  border-radius: 8px;
-  background-color: white; 
+  border-radius: 8px; 
   }
 }
 
 @media (max-width: 992px) and (min-width: 740px) {
-  .hamburger {
+  .menu-icon {
   display: block;
   position: absolute;
-  top: 140px;
+  top: 75px;
   left: 5%;
   padding: 15px;
-  border-radius: 8px;
-  background-color: white; 
+  border-radius: 8px; 
   }
 }
 
