@@ -2,21 +2,19 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #efe7d3;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column; 
   min-height: 100vh; 
 }
-
-
 .main-content {
   flex: 1;  
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .brand-logo{
     height: 100px;
     width: 100px;
