@@ -1,81 +1,201 @@
-  body {
-      margin: 0;
-      padding: 0;
-      background: #f0f8ff;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+/* -------------------
+   1. Global Styles
+-------------------- */
+body {
+  background-color: #efe7d3;
+  color: #3e2723;
+  font-family: Arial, sans-serif; /* optional but good practice */
+  margin: 0;
+  padding: 0;
+}
 
-    .success-container {
-      background: white;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      max-width: 400px;
-    }
+/* -------------------
+   2. Navbar
+-------------------- */
+.nav-bar {
+  width: 100%;
+  background: rgba(62, 31, 26, 0.95);
+  padding: 12px 0;
+}
 
-    /* Circle */
-    .circle {
-      width: 80px;
-      height: 80px;
-      margin: 0 auto 20px;
-      border-radius: 50%;
-      border: 4px solid #28a745;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      animation: pop 0.4s ease-out;
-    }
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
 
-    /* Checkmark */
-    .checkmark {
-      width: 20px;
-      height: 40px;
-      border-right: 4px solid #28a745;
-      border-bottom: 4px solid #28a745;
-      transform: rotate(45deg) scale(0);
-      animation: drawCheck 0.4s ease-out forwards 0.5s;
-      position: absolute;
-    }
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
-    /* Circle pop effect */
-    @keyframes pop {
-      0% { transform: scale(0.8); }
-      100% { transform: scale(1); }
-    }
+.brand-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
 
-    /* Checkmark animation */
-    @keyframes drawCheck {
-      to { transform: rotate(45deg) scale(1); }
-    }
+.brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 30px;
+}
 
-    h1 {
-      color: #333;
-      margin-bottom: 10px;
-    }
+.nav-right a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
 
-    p {
-      color: #666;
-      font-size: 16px;
-      margin-bottom: 30px;
-    }
-.btn {
-      display: inline-block;
-      background: #28a745;
-      color: white;
-      padding: 12px 25px;
-      border: none;
-      border-radius: 6px;
-      text-decoration: none;
-      font-size: 16px;
-      transition: background 0.3s;
-    }
+.nav-right a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ffca28;
+  transition: width 0.3s ease;
+}
 
-    .btn:hover {
-      background: #218838;
-    }
+.nav-right a:hover::after {
+  width: 100%;
+}
+
+/* -------------------
+   3. Form Container
+-------------------- */
+.form-container {
+  background: rgba(255, 255, 255, 0.9);
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5d4037;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 15px;
+  transition: border 0.3s;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #8d6e63;
+}
+
+/* -------------------
+   4. Payment Options
+-------------------- */
+.payment-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.payment-options input[type="radio"] {
+  display: none;
+}
+
+.payment-btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: #d7ccc8;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.payment-options input[type="radio"]:checked + .payment-btn {
+  background: #795548;
+  color: #fff;
+  border: 2px solid #5d4037;
+}
+
+/* -------------------
+   5. Buttons
+-------------------- */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #6d4c41;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #4e342e;
+}
+
+/* -------------------
+   6. Footer
+-------------------- */
+.footer {
+  background: #3e1f1a;
+  color: #fff;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer h4,
+.footer h2 {
+  margin-bottom: 10px;
+  color: #ffca28;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+}
