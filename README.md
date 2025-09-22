@@ -87,4 +87,12 @@ Enjoy exploring all the pages designed to give you a **real café-like experienc
 - **Rutuja Sontake** – `payment.html`,`Payment-style.css`
 - **Sarthak Ranade** – `menus.html`, `menus.css`
 - **Swati Kasal** - `cheakbox.html`, `cheakbox.css`
+
+---
+
+<a href="https://github.com/RohanShedage01/icp-13-html-css-github-group-project-2-online-coffee-shop/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=RohanShedage01/icp-13-html-css-github-group-project-2-online-coffee-shop" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 ---
