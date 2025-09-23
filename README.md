@@ -94,5 +94,4 @@ Enjoy exploring all the pages designed to give you a **real café-like experienc
   <img src="https://contrib.rocks/image?repo=RohanShedage01/icp-13-html-css-github-group-project-2-online-coffee-shop" />
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
 ---
