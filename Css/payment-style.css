@@ -4,6 +4,38 @@ body{
   background-color: #efe7d3;
 }
 
+.hamburger {
+  display: none; 
+  cursor: pointer;
+}
+.hamburger img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 5%;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white; 
+  }
+}
+
+@media (max-width: 992px) and (min-width: 740px) {
+  .hamburger {
+  display: block;
+  position: absolute;
+  top: 140px;
+  left: 5%;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+  }
+}
 
 .nav-bar{
     display: flex;
@@ -219,4 +251,12 @@ hr {
   .footer p, .footer a {
     font-size: 14px;
   }
+}
+
+.footer .socials a {
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.3s;
 }
