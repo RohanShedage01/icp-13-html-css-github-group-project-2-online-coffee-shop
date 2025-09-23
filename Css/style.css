@@ -48,9 +48,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:  40px 10% 60px;
+  padding: 0.5px 10% 60px; 
   min-height: calc(100vh - 80px);
 }
+
 
 .hero-content {
   max-width: 50%;
@@ -78,7 +79,7 @@ body {
 }
 
 .about {
-  padding: 80px 8%;
+  padding: 8px 8%;
   background: #efe7d3;
 }
 
@@ -90,9 +91,11 @@ body {
 }
 
 .about-img img {
-  width: 350px;
+  width: 360px;
+  height: 280px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  margin-right: 70px;
 }
 
 .about-text {
@@ -101,14 +104,14 @@ body {
 }
 
 .about-text h2 {
-  font-size: 2rem;
+  font-size: 35px;
   margin-bottom: 20px;
   color: #f4a261;
 }
 
 .about-text p {
   margin-bottom: 15px;
-  font-size: 1rem;
+  font-size: 25px;
   color: #4b2e2e;
 }
 
@@ -185,7 +188,7 @@ body {
 
 .services {
   text-align: center;
-  padding: 60px 10%;
+  padding: 100px 10%;
   background: #efe7d3;
 }
 
@@ -193,6 +196,7 @@ body {
   font-size: 36px;
   margin-bottom: 40px;
   color: #ff9d2b;
+  margin-right: 85px;
 }
 
 .service-cards {
@@ -275,6 +279,17 @@ body {
 
 .footer-contact strong {
   color: #ffcc80;
+}
+
+.footer .socials a {
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.3s;
+}
+.footer .socials a:hover {
+  opacity: 0.7;
 }
 
 hr {
