@@ -44,7 +44,7 @@ body{
   .hamburger {
   display: block;
   position: absolute;
-  top: 125px;
+  top: 150px;
   left: 5%;
   padding: 15px;
   border-radius: 8px;
@@ -60,7 +60,7 @@ body{
   left: 5%;
   padding: 15px;
   border-radius: 8px;
-  background-color: white; 
+  background-color: white;
   }
 }
 section.contact {
