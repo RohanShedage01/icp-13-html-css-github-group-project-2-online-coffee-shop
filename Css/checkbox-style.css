@@ -43,7 +43,6 @@ body {
   }
 }
 
-
 .brand-logo{
     height: 100px;
     width: 100px;
@@ -141,6 +140,7 @@ body {
       border-radius: 6px;
       cursor: pointer;
       font-size: 14px;
+      text-decoration: none;
     }
 
     .btn:hover {
