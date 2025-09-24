@@ -44,8 +44,8 @@ body{
   .hamburger {
   display: block;
   position: absolute;
-  top: 150px;
-  left: 5%;
+  top: 50px;
+  left: 25%;
   padding: 15px;
   border-radius: 8px;
   background-color: white; 
@@ -56,8 +56,8 @@ body{
   .hamburger {
   display: block;
   position: absolute;
-  top: 140px;
-  left: 5%;
+  top: 10px;
+  left: 25%;
   padding: 15px;
   border-radius: 8px;
   background-color: white;
