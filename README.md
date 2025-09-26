@@ -12,7 +12,7 @@ It demonstrates **responsive web design**, multiple pages, and clean folder stru
 ##  How To Use  
 
 For a seamless **Online Coffee Shop** experience, simply visit our website:  
- [Online Coffee Shop](https://your-coffee-shop-demo-link.com) *(replace with your GitHub Pages or Netlify link)*  
+ [Online Coffee Shop](https://swadandsip.netlify.app/)  
 
 ###  What You Can Do:
 -  **Browse the Menu** – Explore a variety of coffee and snacks.  
