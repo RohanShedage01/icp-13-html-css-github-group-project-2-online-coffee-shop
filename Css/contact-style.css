@@ -73,7 +73,7 @@ section.contact {
   text-align: center;
 }
 .contact-box {
-  background: #a0522d;
+  background:#b87c4c;;
       color: #fff;
       padding: 30px;
       border-radius: 8px;
@@ -104,14 +104,14 @@ section.contact {
       margin-top: 15px;
       width: 100%;
       padding: 10px;
-      background: #222;
+      background:#3e1f1a;
       color: #fff;
       border: none;
       border-radius: 5px;
       cursor: pointer;
     }
     .contact-box button:hover {
-      background: #444;
+      background: #5a0b05;
     }
    .h4{
     color: #444 ;
@@ -127,7 +127,7 @@ section.contact {
     iframe {
       
       border: solid;
-      border-color: #a0522d ;
+      border-color:#b87c4c; ;
       border-radius: 8px;
       width:700px;
       height: 400px;
