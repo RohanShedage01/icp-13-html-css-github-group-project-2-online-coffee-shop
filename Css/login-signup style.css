@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:#efe7d3;
 
 
 }
@@ -101,6 +102,10 @@ h2{
         border-radius: 10px;
         
         
+    }
+    .button{
+      position: relative;
+      left: 25px;
     }
     .box{
         margin: 10px;

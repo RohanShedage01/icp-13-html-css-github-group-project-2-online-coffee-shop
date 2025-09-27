@@ -4,7 +4,40 @@ body{
 
 
 }
-  .brand-logo{
+.hamburger {
+  display: none; 
+  cursor: pointer;
+}
+.hamburger img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 5%;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white; 
+  }
+}
+
+@media (max-width: 992px) and (min-width: 740px) {
+  .hamburger {
+  display: block;
+  position: absolute;
+  top: 140px;
+  left: 5%;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+  }
+}
+
+.brand-logo{
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -109,6 +142,12 @@ body {
 .nav-items:hover {
   color: #ffca28;
 }
+.form-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 28px;
+  color: #5d4037;
+}
 
 
 .form-container {
@@ -149,7 +188,8 @@ form input:focus, form select:focus {
 
 .payment-options {
   display: flex;
-  gap: 10px;
+  gap: 220px;
+  0px;
   margin-bottom: 20px;
 }
 
@@ -192,7 +232,6 @@ form input:focus, form select:focus {
   background: #4e342e;
 }
 
-/* Footer */
 .footer {
   background: #3e1f1a;
   color: #fff;
@@ -224,4 +263,54 @@ form input:focus, form select:focus {
   margin-top: 20px;
   font-size: 14px;
   opacity: 0.8;
+}
+.footer .socials a {
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.3s;
+}
+.footer .socials a:hover {
+  opacity: 0.7;
+}
+@media (max-width: 600px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .brand-name {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  .nav-items {
+    display: block;
+    margin: 6px 0;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-image img {
+    width: 220px;
+  }
+
+  .footer h2, 
+  .footer h4 {
+    font-size: 18px;
+  }
+
+  .footer p, 
+  .footer a {
+    font-size: 14px;
+  }
 }
