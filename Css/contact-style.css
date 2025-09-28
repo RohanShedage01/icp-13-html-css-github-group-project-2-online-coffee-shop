@@ -73,12 +73,12 @@ section.contact {
   text-align: center;
 }
 .contact-box {
-  background:#b87c4c;;
-      color: #fff;
+  background:rgb(255, 250, 240);;
+      color: #301208;
       padding: 30px;
       border-radius: 8px;
       width: 400px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+       box-shadow: 0 5px 15px #382005;
       margin-left: 50px;
       text-align: left;
     
@@ -92,6 +92,9 @@ section.contact {
       display: block;
       margin: 10px 0 5px;
      text-align: left;
+    
+
+    
     }
     .contact-box input,
     .contact-box textarea {
@@ -99,6 +102,7 @@ section.contact {
       padding: 8px;
       border: none;
       border-radius: 4px;
+       border: 2px solid #444;
     }
      .contact-box button {
       margin-top: 15px;
@@ -127,7 +131,8 @@ section.contact {
     iframe {
       
       border: solid;
-      border-color:#b87c4c; ;
+      border-color:#3e1f1a;
+      box-shadow:0 5px 15px #aca670;
       border-radius: 8px;
       width:700px;
       height: 400px;
